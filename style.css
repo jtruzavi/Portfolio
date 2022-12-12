@@ -1,0 +1,132 @@
+body {
+    font-family: 'Vidaloka', serif;
+}
+
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color: white;
+    height: 100vh;
+}
+
+footer {
+    height: 500px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.hero-text {
+    margin-left: 80px;
+    color: black;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: white;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button:hover {
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub section {
+    display: flex;
+    justify-content: space-around;
+    padding:80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 300px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
