@@ -1,25 +1,30 @@
 body {
-    font-family: 'Vidaloka', serif;
+    font-family: 'Fredoka One', sans-serif;
+    margin: 0;
 }
 
 section {
-    background-color: white;
+    background-color: #1aaeae;
 }
 
 .hero {
-    background-color: white;
+    background-color: #1aaeae;
     height: 100vh;
+    color: white;
+    font-size: 40px;
 }
 
 footer {
-    height: 500px;
-    background-color: white;
+    background-color: #1aaeae;
+    color: black;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    color: white;
+    color:black;
 }
 
 ul {
@@ -32,35 +37,37 @@ ul {
 
 li {
     text-decoration: none;
-    color: white;
+    color:black;
 }
 
 h1 {
     font-size: 90px;
+    font-family: 'Fredoka One', cursive;
     margin: 0;
-}
-
-.hero-text {
-    margin-left: 80px;
-    color: black;
-}
-
-.button {
-    width: 200px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: black;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-    margin-top: 20px;
-    color: white;
 }
 
 p {
     margin: 0;
     font-size: 30px;
     font-weight: 300;
+}
+
+.hero-text {
+    margin-left: 80px;
+    color:black;
+    font-family: 'Fredoka One', cursive;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
 }
 
 .hero-area {
@@ -76,6 +83,10 @@ p {
 }
 
 .button:hover {
+    background-color: #484848;
+}
+
+.button:active {
     background-color: #a9a9a9;
     color: #808080;
 }
@@ -93,10 +104,10 @@ p {
     margin: 20px;
 }
 
-.sub section {
+.sub-section {
     display: flex;
     justify-content: space-around;
-    padding:80px;
+    padding: 80px;
 }
 
 h2 {
@@ -105,7 +116,8 @@ h2 {
 
 .headshot {
     width: 300px;
-    border-radius: 300px;
+    border-radius: 315px;
+    margin-left: 80px;
 }
 
 .headshot-container {
@@ -116,7 +128,8 @@ h2 {
 .project-card {
     width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    margin: 10px;
 }
 
 .project-container {
@@ -129,4 +142,37 @@ h2 {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
